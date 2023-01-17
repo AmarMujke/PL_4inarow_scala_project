@@ -252,6 +252,17 @@ object  GameBoard extends App {
                 if (checkForWin(currentPlayer)) {
                     println(currentPlayer + " wins!")
                     gameOver = true
+                     println("Want to play again? | y - yes, n - no")
+                        val answ = scala.io.StdIn.readLine()
+                        if(answ != "y" && answ != "n"){
+                            println("Invalid input, please enter y or n")
+                        } else if(answ == "y"){
+                            history = ArrayBuffer.empty[(String, Int)]
+                            chooseDimensions()
+                            start()
+                        } else {
+                            return false
+                        }
                     return true
                 } else {
                     if (currentPlayer == player1) {
