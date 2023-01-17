@@ -4,15 +4,15 @@ Connect Four is a two-player connection board game, in which the players take tu
 The project was done as part of the IT 305 Programming Languages course at International Burch University, and implemented in the Scala programming language.
 
 Team members
-Amar Mujkic
-Omar Talovic
-Din Kulovic
+Amar Mujkic; 
+Omar Talovic; 
+Din Kulovic;
 
 Running the project
 To run the project, you will first need to install Scala. You can find instructions on https://www.scala-lang.org/ (You will need version 2.12.10).
 
 After installing Scala, follow these steps to run the game:
 
-git clone https://github.com/AmarMujke/PL_4inarow_scala_project.git
-cd 4inarow
+git clone https://github.com/AmarMujke/PL_4inarow_scala_project.git; 
+cd 4inarow; 
 scala GameRows.scala
